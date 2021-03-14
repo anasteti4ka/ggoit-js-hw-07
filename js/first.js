@@ -8,3 +8,4 @@ const getCategories = (cat) => {
     Категория: ${element.firstElementChild.textContent}
     Количество элементов: ${element.lastElementChild.children.length}`))
 }
+getCategories(catRef)
